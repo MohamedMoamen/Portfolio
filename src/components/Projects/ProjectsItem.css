@@ -17,9 +17,11 @@
 }
 .projectsitem-projecttitle{
     font-size:1.7rem;
+    text-align:center;
 }
 .projectsitem-description{
     font-size:1rem;
+    text-align:center;
 }
 .projectsitem-buttons{
     display:flex;
