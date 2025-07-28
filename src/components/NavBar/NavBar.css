@@ -76,6 +76,14 @@
     text-align:center;
 }
 @media screen and (max-width:720px){
+    .navbar{
+    height:2rem;
+    }
+    .navbar-logo{
+    object-fit:cover;
+    height:1.5rem;
+    width:2rem;
+}
     .mobmenu{
         display:flex;
     }
