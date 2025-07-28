@@ -1,0 +1,59 @@
+#intro{
+    height:calc(100vh-4rem);
+    width:100vw;
+    max-width:75rem;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:0px;
+}
+.intro-content{
+    /* height:100vh; */
+    width:100vw;
+    padding:2rem;
+    font-size:3rem;
+    font-weight:700;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    /* margin-top:9rem; */
+
+
+}
+.intro-name{
+    color:yellow;
+}
+.intro-paragraph{
+    font-size:medium;
+    font-weight:100;
+    /* text-align:left; */
+    /* letter-spacing:1px; */
+}
+.intro-personal-photo{
+    /* position:absolute;
+    top:10rem;
+    right:10rem;
+    z-index:-1; */
+    object-fit:cover;
+    border-radius:50%;
+    clip-path:inset(0 0 0 10px);
+}
+.intro-resume{
+    background:white;
+    margin:1rem 0;
+    padding:0.75rem 2rem;
+    border:none;
+    border-radius:2rem;
+    cursor:pointer;
+
+}
+/* @media screen and (max-width:840px){
+    .intro-content{
+        font-size:10vw;
+    
+    }
+} */

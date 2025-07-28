@@ -1,0 +1,16 @@
+#about{
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.about-title-paragraph{
+    font-size:3rem;
+    text-align:center;
+    color:yellow;
+}
+.about-content{
+    text-align:left;
+    padding:2rem;
+    font-size:1.5rem;
+}
