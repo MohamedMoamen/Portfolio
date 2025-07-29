@@ -19,6 +19,7 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
+    max-width:100%;
     /* width:90vw; */
     /* max-width:60rem; */
 }
@@ -55,14 +56,17 @@
 }
 .contact-phoneandemail{
     margin:1.5rem;
+    max-width:100%;
 
 }
 .contact-phoneandemail-iconandcontent{
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     align-items:center;
     justify-content:center;
     gap:1rem;
+    max-width:100%;
 }
 .contact-phoneandemail-icon{
    height:2rem;
