@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 import Projects from './components/Projects/Projects';
 function App() {
   return (
-    <div className="App">
+    <div className="c">
       <NavBar/>
       <Intro/>
       <About/>
