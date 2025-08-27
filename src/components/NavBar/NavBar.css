@@ -45,9 +45,9 @@
     cursor:pointer;
 }
 .active{
-    color:yellow;
-    border-bottom:3px solid yellow;
-    padding-bottom:0.5rem;
+    color:yellow !important;
+    border-bottom:3px solid yellow !important;
+    padding-bottom:0.5rem !important;
 }
 .navbar-burgermenu{
     position:absolute;

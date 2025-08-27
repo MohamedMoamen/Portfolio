@@ -23,11 +23,11 @@ const NavBar = () => {
         </Link>
         <img src={Burger_menu_icon} alt="" className="mobmenu" onClick={()=>{setShowMenu(!showMenu)}}/>
         <div className="navbar-burgermenu" style={{display:showMenu?"flex":"none"}}>
-            <Link to="intro" activeClass="active" spy={true} smooth={true} duration={500} offset={-80} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Home</Link>
-            <Link to="about" activeClass="active" spy={true} smooth={true} duration={500} offset={-80} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>About</Link>
-            <Link to="skills" activeClass="active" spy={true} smooth={true} duration={500} offset={-80} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Skills</Link>
-            <Link className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Projects</Link>
-            <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500} offset={-80} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Contact</Link>
+            <Link to="intro" activeClass="active" spy={true} smooth={true} duration={500} offset={-50} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Home</Link>
+            <Link to="about" activeClass="active" spy={true} smooth={true} duration={500} offset={-50} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>About</Link>
+            <Link to="skills" activeClass="active" spy={true} smooth={true} duration={500} offset={-50} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Skills</Link>
+            <Link to="projects" activeClass="active" spy={true} smooth={true} duration={500} offset={-50} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Projects</Link>
+            <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500} offset={-50} className="navbar-burgermenu-item" onClick={()=>{setShowMenu(false)}}>Contact</Link>
         </div>
       </div>
   )
