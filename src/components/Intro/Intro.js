@@ -10,11 +10,14 @@ const Intro = () => {
         <div className="intro-content">
             <span>I'm <span className="intro-name">Mohamed Moamen</span></span>
             <br/>
-            <span>Frontend Developer</span>
+            <span>Full Stack Developer</span>
             <br/>
-            <span className="intro-paragraph">crafting responsive, dynamic , and user-friendly web applications with<br/> modern technologies to bring your ideas to life.</span>
-            <a href="/MohamedMoamenResume.pdf" target="_blank" rel="noopener noreferrer">
-            <button className="intro-resume">My Resume</button>
+            <span className="intro-paragraph">
+                Building scalable, secure, and user-focused web applications using modern
+                backend and frontend technologies.
+            </span>
+            <a href="/Mohamed Moamen Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <button className="intro-resume">My Resume</button>
             </a>
         </div>
     </section>

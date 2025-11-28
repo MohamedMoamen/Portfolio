@@ -1,5 +1,9 @@
 import React from 'react'
 import "./Skills.css";
+import Laravel_logo from "../../Images/Laravel_logo.png";
+import PHP_logo from "../../Images/PHP_logo.png";
+import OOP_logo from "../../Images/OOP_logo.png";
+import MySQL_logo from "../../Images/MySQL_logo.png";
 import HTML5_logo from "../../Images/HTML5_logo.png";
 import CSS3_logo from "../../Images/CSS3_logo.png"
 import JavaScript_logo from "../../Images/JavaScript_logo.png";
@@ -16,6 +20,22 @@ const Skills = () => {
     <div id="skills">
         <h1 className="skills-title">Skills</h1>
         <div className="skills-content">
+            <div className="skills-logoandname">
+                <img className="skills-logo" src={Laravel_logo} alt=""/>
+                <p className="skills-logo-name"> Laravel</p>
+            </div>
+            <div className="skills-logoandname">
+                <img className="skills-logo" src={PHP_logo} alt=""/>
+                <p className="skills-logo-name"> PHP</p>
+            </div>
+            <div className="skills-logoandname">
+                <img className="skills-logo" src={OOP_logo} alt=""/>
+                <p className="skills-logo-name"> OOP</p>
+            </div>
+            <div className="skills-logoandname">
+                <img className="skills-logo" src={MySQL_logo} alt=""/>
+                <p className="skills-logo-name"> MySQL</p>
+            </div>
             <div className="skills-logoandname">
                 <img className="skills-logo" src={HTML5_logo} alt=""/>
                 <p className="skills-logo-name"> HTML5</p>
