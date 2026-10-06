@@ -1,0 +1,40 @@
+#experience {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-title-paragraph {
+  font-size: 3rem;
+  text-align: center;
+  color: yellow;
+  margin-bottom:2rem;
+}
+
+.experience-content {
+  padding: 0 2rem 1rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-item h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item span {
+  font-size: 1rem;
+}
+
+.experience-item ul {
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.experience-item li {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
